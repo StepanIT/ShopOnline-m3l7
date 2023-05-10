@@ -9,36 +9,48 @@
 </head>
 <body>
  <header>
-  <ul class="header__list">
-    <li class="header__item">
-      <img class="header__logo" src="img/header/header__logo.png" alt="">
-    </li>
-    <li class="header__item">
-      <button class="header__btn">
-        <img class="header__btn-img" src="img/header/header__btn-sort.svg" alt="">
-        <p class="header__btn-text">Меню</p>
-      </button>
-    </li>
-    <li class="header__item">
-      
-    </li>
-    <li class="header__item">
-      <div class="header__menu">
-        <div class="header__menu-profile">
-          <img class="header__menu-img" src="img/header/header__icon-person.svg" alt="">
-          <p class="header__menu-text">Профиль</p>
-        </div>
-        <div class="header__menu-cart">
-          <img class="header__menu-img" src="img/header/header__icon-shopping.svg" alt="">
-          <p class="header__menu-text">Корзина</p>
-        </div>
-        <div class="header__menu-favorite">
-          <img class="header__menu-img" src="img/header/header__icon-favorite.svg" alt="">
-          <p class="header__menu-text">Избранное</p>
-        </div>
-      </div>
-    </li>
-  </ul>
+  <div class="header">
+    <div class="container">
+      <ul class="header__list">
+        <li class="header__item logo">
+          <img class="header__logo" src="img/header/header__logo.png" alt="">
+        </li>
+        <li class="header__item btn">
+          <button class="header__btn">
+            <img class="header__btn-img" src="img/header/header__btn-sort.svg" alt="">
+            <p class="header__btn-text">Меню</p>
+          </button>
+        </li>
+        <li class="header__item form">
+          <div class="header__form">
+            <form>
+            <input class="header__form-input" type="text" placeholder="Искать здесь...">
+            <button class="header__form-btn" type="submit">
+              <img src="img/header/header__search.svg" alt="">
+            </button>
+            </form>
+          </div>
+        </li>
+        <li class="header__item menu">
+          <div class="header__menu">
+            <div class="header__menu-profile">
+              <img class="header__menu-img" src="img/header/header__icon-person.svg" alt="">
+              <p class="header__menu-text">Профиль</p>
+            </div>
+            <div class="header__menu-cart">
+              <img class="header__menu-img" src="img/header/header__icon-shopping.svg" alt="">
+              <p class="header__menu-text">Корзина</p>
+            </div>
+            <div class="header__menu-favorite">
+              <img class="header__menu-img" src="img/header/header__icon-favorite.svg" alt="">
+              <p class="header__menu-text">Избранное</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
  </header>
 </body>
 </html>
