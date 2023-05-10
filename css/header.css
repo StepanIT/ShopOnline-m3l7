@@ -1,14 +1,16 @@
+.header {
+  padding-top: 27px;
+}
+
 .header__list {
   display: grid;
-  grid-template-columns: repeat(12, 147.5px);
+  grid-template-columns: 190px 151px 757px 354px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__item {
 
-}
-
-.logo {
-  
 }
 
 .header__logo {
@@ -27,13 +29,14 @@
 }
 
 .header__btn-img {
-
+  padding-left: 33px;
 }
 
 .header__btn-text {
   font-weight: 400;
   font-size: 22px;
   color: var(--color-white);
+  margin-right: 30px;
   
 }
 
@@ -46,8 +49,15 @@
   height: 54px;
   padding-left: 40px;
   border-radius: 30px;
-  background: #EFEFEF;
+  background: var(--color-white-1);
   border: none;
+  color: var(--color-gray);
+}
+
+.header__form-input::placeholder {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-gray);
 }
 
 .header__form-btn {

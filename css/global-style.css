@@ -14,6 +14,7 @@ html {
   --color-yellow: #FFBD13;
   --color-shadow: rgba(0, 0, 0, 0.25);
   --color-black: #2D2D2D;
+  --color-gray: #8F8F8F;;
 }
 
 *,
