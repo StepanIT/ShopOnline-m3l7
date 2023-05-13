@@ -10,7 +10,7 @@ gap: 60px;
 }
 
 .grid__item {
-  
+  max-width: 100%;
   
 }
 
