@@ -9,9 +9,10 @@
 .header__list {
   max-width: 100%;
   display: grid;
-  grid-template-columns: 190px 151px 757px 354px;
+  grid-template-columns: repeat(4, 165px);
   justify-content: space-between;
-  align-items: center;
+
+
 }
 
 .header__item {

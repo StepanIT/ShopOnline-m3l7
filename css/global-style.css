@@ -28,6 +28,8 @@ body {
   min-height: 100vh;
   font-family: 'Lato', sans-serif;
   color: var(--color-white);
+  background: var(--color-white);
+  box-shadow: 0px 4px 4px var(--color-shadow);
 }
 
 img, svg {
