@@ -1,5 +1,4 @@
 .header {
-  max-width: 100%;
   padding-top: 27px;
   background: var(--color-white);
   box-shadow: 0px 4px 4px var(--color-shadow);
@@ -9,9 +8,13 @@
 .header__list {
   max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 165px);
-  justify-content: space-between;
+  grid-template-columns: 
+  minmax(114px, 190px) 
+  minmax(79px, 151px) 
+  minmax(280px, 757px)
+  minmax(130px, 354px);
 
+justify-content: space-between;
 
 }
 
@@ -19,7 +22,7 @@
 
 }
 
-.header__logo {
+.logo {
  max-width: 190px;
 }
 
@@ -46,12 +49,13 @@
   
 }
 
-.header__form {
+.form {
   position: relative;
+  max-width: 757px;
 }
 
 .header__form-input {
-  width: 757px;
+  width: 100%;
   height: 54px;
   padding-left: 40px;
   border-radius: 30px;
@@ -76,10 +80,16 @@
   border: none;
 }
 
+.menu {
+  max-width: 354px;
+  height: 61px;
+}
+
 .header__menu {
-  display: grid;
-  grid-template-columns: repeat(3, 69px 63px 82px );
-  gap: 70px;
+ display: grid;
+ grid-template-columns: minmax(30px, 69px) minmax(30px, 63px) minmax(30px, 82px);
+ justify-content: space-between;
+
 }
 
 .header__menu-profile {
