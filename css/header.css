@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   padding-top: 27px;
   padding-bottom: 100px;
 }
@@ -78,10 +79,10 @@
 }
 
 .header__menu {
- display: grid;
- grid-template-columns: minmax(30px, 69px) minmax(30px, 63px) minmax(30px, 82px);
- justify-content: space-between;
-
+  max-width: 354px;
+  display: grid;
+  grid-template-columns: minmax(30px, 69px) minmax(30px, 63px) minmax(30px, 82px);
+  gap: 70px;
 }
 
 .header__menu-text {
@@ -89,9 +90,16 @@
 }
 
 @media (max-width: 1100px) {
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+
   .header__list {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    gap: 34px;
   }
 
   .logo {
