@@ -11,43 +11,40 @@
  <header>
   <div class="header">
     <div class="container">
-      <ul class="header__list">
-        <li class="header__item logo">
-          <img class="header__logo" src="img/header/header__logo.png" alt="">
-        </li>
-        <li class="header__item btn">
-          <button class="header__btn">
-            <img class="header__btn-img" src="img/header/header__btn-sort.svg" alt="">
-            <p class="header__btn-text">Меню</p>
+      <div class="header__grid">
+        <div class="header__logo">
+          <img class="header__logo-img" src="img/header/header__logo.png" alt="">
+        </div>
+        <div class="header__button">
+        <button class="header__btn">
+          <img class="header__btn-img" src="img/header/header__btn-sort.svg" alt="">
+          <p class="header__btn-text">Меню</p>
+        </button>
+        </div>   
+        <div class="header__form">
+          <form>
+          <input class="header__form-input" type="text" placeholder="Я ищу...">
+          <button class="header__form-btn" type="submit">
+            <img src="img/header/header__search.svg" alt="">
           </button>
-        </li>
-        <li class="header__item form">
-          <div class="header__form">
-            <form>
-            <input class="header__form-input" type="text" placeholder="Я ищу...">
-            <button class="header__form-btn" type="submit">
-              <img src="img/header/header__search.svg" alt="">
-            </button>
-            </form>
+          </form>
+        </div>
+        <div class="header__menu">
+          <div class="header__menu-profile">
+            <img class="header__menu-img" src="img/header/header__icon-person.svg" alt="">
+            <p class="header__menu-text">Профиль</p>
           </div>
-        </li>
-        <li class="header__item menu">
-          <div class="header__menu">
-            <div class="header__menu-profile">
-              <img class="header__menu-img" src="img/header/header__icon-person.svg" alt="">
-              <p class="header__menu-text">Профиль</p>
-            </div>
-            <div class="header__menu-cart">
-              <img class="header__menu-img" src="img/header/header__icon-shopping.svg" alt="">
-              <p class="header__menu-text">Корзина</p>
-            </div>
-            <div class="header__menu-favorite">
-              <img class="header__menu-img" src="img/header/header__icon-favorite.svg" alt="">
-              <p class="header__menu-text">Избранное</p>
-            </div>
+          <div class="header__menu-cart">
+            <img class="header__menu-img" src="img/header/header__icon-shopping.svg" alt="">
+            <p class="header__menu-text">Корзина</p>
           </div>
-        </li>
-      </ul>
+          <div class="header__menu-favorite">
+            <img class="header__menu-img" src="img/header/header__icon-favorite.svg" alt="">
+            <p class="header__menu-text">Избранное</p>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
  </header>
