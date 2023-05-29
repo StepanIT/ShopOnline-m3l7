@@ -82,3 +82,8 @@ iframe {
   margin: 0 auto;
   padding: 0 30px;
 }
+
+.section {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
