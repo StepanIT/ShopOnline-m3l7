@@ -489,8 +489,6 @@
 }
 }
 
-
-
 @media (max-width: 800px) {
   .container {
     max-width: 760px;
@@ -703,18 +701,21 @@
 }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
   .container {
     max-width: 320px;
     padding: 0 20px;
   }
 
-  .grid {
+  .promo__grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 160px) repeat(9, 130px);
     gap: 20px;
   }
 
+  .grid__item {
+    border-radius: 8px;
+  }
 
 .grid__item:nth-child(1) {
   grid-column: 1 / 3;
@@ -778,5 +779,127 @@
 .grid__item:nth-child(11) {
   grid-column: 2 / 3;
   grid-row: 10 / 11;
+}
+
+.promo__text-1 {
+  top: 50px;
+  left: 29px;
+  font-size: 22px;
+}
+
+.timer-title {
+  font-size: 8px;
+  bottom: 18.23%;
+  left: 39.285%;
+}
+
+.timer {
+  width: 167px;
+  height: 26px;
+  bottom: 8.82%;
+  left: 20.357%;
+  gap: 8px;
+}
+
+.timer-item {
+  gap: 2px;
+}
+
+.big-text {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.text__item-2 {
+  max-width: 65px;
+  font-size: 12px;
+  left: 7.69%;
+  bottom: 7.69%;
+}
+
+.text__item-2-bold {
+  font-size: 16px;
+}
+
+.text__item-3 {
+  font-size: 12px;
+  top: 21.538%;
+  left: 7.69%;
+}
+
+.svg__item-3 {
+  bottom: 3.846%;
+  right: 3.846%;
+}
+
+.item__block-4 {
+  min-height: 36px;
+  bottom: 3.57%;
+  left: 3.57%;
+  right: 3.57%;
+  border-radius: 8px;
+}
+
+.text__item-4 {
+  font-size: 12px;
+  white-space: normal;
+}
+
+.text__item-4-bold {
+  font-size: 16px;
+}
+
+.text__item-5 {
+  max-width: 181px;
+  font-size: 12px;
+  left: 3.57%;
+  bottom: 13.559%;
+}
+
+.svg__item-6 {
+  top: 4.237%;
+  left: 1.785%;
+}
+
+.text__item-7 {
+  font-size: 12px;
+  left: 3.57%;
+  bottom: 13.559%;
+}
+
+.svg__item-7 {
+  right: 1.785%;
+  bottom: 4.237%;
+}
+
+.item__block-8 {
+  min-height: 30px;
+  left: 5.357%;
+  bottom: 8.13%;
+  border-radius: 6px;
+}
+
+.text__item-8 {
+  font-size: 12px;
+  padding: 7px 41px 9px 41px;
+}
+
+.svg__item-9 {
+  right: 7.69%;
+  bottom: 3.57%;
+}
+
+.svg__item-10 {
+  top: 3.846%;
+  left: 3.846%;
+}
+
+.text__item-10 {
+  font-size: 12px;
+  left: 6.92%;
+  bottom: 7.69%;
 }
 }
