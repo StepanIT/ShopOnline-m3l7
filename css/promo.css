@@ -708,7 +708,7 @@
   }
 
   .promo__grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: minmax(100px, 130px);
     grid-template-rows: repeat(2, 160px) repeat(9, 130px);
     gap: 20px;
   }
