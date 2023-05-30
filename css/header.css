@@ -83,7 +83,7 @@
 .header__menu-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 70px;
+  
 }
 
 .header__menu-item {
@@ -104,7 +104,6 @@
 @media (max-width: 1200px) {
   .container {
     max-width: 1000px;
-   
     padding: 0 30px;
   }
 
@@ -131,17 +130,19 @@
   }
 
   .header__menu {
-    grid-column: 4 / 5;
+    grid-column: 3 / 5;
     grid-row: 1 / 2;
    
   }
 }
 
-
+.header__menu-item {
+  
+}
 
 .header__menu-list {
-  max-width: 294px;
-  gap: 40px;
+ 
+
   
 }
 
