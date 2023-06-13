@@ -229,6 +229,11 @@
     }
 
   @media (max-width: 600px) {
+    .header {
+      padding-top: 20px;
+      padding-bottom: 0;
+    }
+
     .container {
       max-width: 320px;
       padding: 0 20px;
@@ -237,7 +242,7 @@
     .header__grid {
       grid-template-columns: minmax(100px, 130px);
       grid-template-rows: repeat(3, 1fr);
-      gap: 20px;
+      gap: 0;
     }
   
     .header__logo {
@@ -278,8 +283,8 @@
     }
 
     .header__menu-item {
-      width: 52px;
-      height: 44px;
+      width: 30px;
+      height: 30px;
     }
      
     .header__menu-text {
