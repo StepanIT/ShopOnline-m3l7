@@ -160,11 +160,28 @@
   left: 7.71%;
 }
 
-.promo__svg-3 {
+.promo__discount-3 {
   position: absolute;
   z-index: 1;
   bottom: 8.16%;
   right: 8.16%;
+}
+
+.promo__discount-circle {
+  position: relative;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: var(--color-yellow);
+}
+
+.promo__discount-text {
+  position: absolute;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  top: 28%;
+  left: 14%;
 }
 
 .promo__caption-4 {
@@ -202,7 +219,7 @@
   bottom: 14.24%;
 }
 
-.promo__svg-6 {
+.promo__discount-6 {
   position: absolute;
   z-index: 1;
   top: 8.16%;
@@ -219,7 +236,7 @@
   bottom: 13.24%;
 }
 
-.promo__svg-7 {
+.promo__discount-7 {
   position: absolute;
   z-index: 1;
   right: 3.63%;
@@ -245,14 +262,14 @@
   padding: 32px 41px 32px 42px;
 }
 
-.promo__svg-9 {
+.promo__discount-9 {
   position: absolute;
   z-index: 1;
   right: 8.16%;
   bottom: 3.64%;
 }
 
-.promo__svg-10 {
+.promo__discount-10 {
   position: absolute;
   z-index: 1;
   top: 8.16%;
@@ -400,7 +417,7 @@
     left: 4.147%;
   }
 
-  .promo__svg-3 {
+  .promo__discount-3 {
     bottom: 4.608%;
     right: 4.608%;
   }
@@ -429,7 +446,7 @@
     bottom: 10.216%;
   }
 
-  .promo__svg-6 {
+  .promo__discount-6 {
     top: 4.608%;
     left: 2.18%;
   }
@@ -440,7 +457,7 @@
     bottom: 9.216%;
   }
 
-  .promo__svg-7 {
+  .promo__discount-7 {
     right: 2.18%;
     bottom: 4.608%;
   }
@@ -457,12 +474,12 @@
     padding: 35px 50px 32px 47px;
   }
 
-  .promo__svg-9 {
+  .promo__discount-9 {
     right: 4.608%;
     bottom: 2.18%;
   }
 
-  .promo__svg-10 {
+  .promo__discount-10 {
     top: 4.608%;
     left: 4.608%;
   }
@@ -535,7 +552,7 @@
 
   .promo__item:nth-child(8) {
     grid-column: 1 / 10;
-    grid-row: 20 / 22;
+    grid-row: 20 / 23;
     height: 337px;
   }
 
@@ -599,11 +616,28 @@
     left: 3.57%;
   }
 
-  .promo__svg-3 {
+  .promo__discount-3 {
     width: 50px;
     height: 50px;
     bottom: 7.14%;
     right: 7.14%;
+  }
+
+  .promo__discount-circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+  }
+  
+  .promo__discount-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    top: 28%;
+    left: 14%;
   }
 
   .promo__caption-4 {
@@ -632,7 +666,7 @@
     bottom: 11.285%;
   }
 
-  .promo__svg-6 {
+  .promo__discount-6 {
     width: 50px;
     height: 50px;
     top: 7.14%;
@@ -645,7 +679,7 @@
     bottom: 14.285%;
   }
 
-  .promo__svg-7 {
+  .promo__discount-7 {
     width: 50px;
     height: 50px;
     right: 3.333%;
@@ -665,14 +699,14 @@
     padding: 31px 34px 33px 36px;
   }
 
-  .promo__svg-9 {
+  .promo__discount-9 {
     width: 50px;
     height: 50px;
     right: 4.545%;
     bottom: 4.545%;
   }
 
-  .promo__svg-10 {
+  .promo__discount-10 {
     width: 50px;
     height: 50px;
     top: 7.14%;
@@ -820,9 +854,26 @@
     left: 7.69%;
   }
 
-  .promo__svg-3 {
+  .promo__discount-3 {
     bottom: 3.846%;
     right: 3.846%;
+  }
+
+  .promo__discount-circle {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color-yellow);
+  }
+  
+  .promo__discount-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    top: 28%;
+    left: 14%;
   }
 
   .promo__caption-4 {
@@ -837,7 +888,8 @@
     position: absolute;
     font-size: 12px;
     white-space: normal;
-    top: 10px;
+    padding-left: 23px;
+    padding-top: 9px;
   }
 
   .promo__item-text-4-bold {
@@ -851,7 +903,7 @@
     bottom: 13.559%;
   }
 
-  .promo__svg-6 {
+  .promo__discount-6 {
     top: 4.237%;
     left: 1.785%;
   }
@@ -862,7 +914,7 @@
     bottom: 13.559%;
   }
 
-  .promo__svg-7 {
+  .promo__discount-7 {
     right: 1.785%;
     bottom: 4.237%;
   }
@@ -879,12 +931,12 @@
     padding: 13px 41px 9px;
   }
 
-  .promo__svg-9 {
+  .promo__discount-9 {
     right: 7.69%;
     bottom: 3.57%;
   }
 
-  .promo__svg-10 {
+  .promo__discount-10 {
     top: 3.846%;
     left: 3.846%;
   }
