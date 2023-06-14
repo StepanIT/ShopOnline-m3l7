@@ -704,6 +704,10 @@
 
 
 @media (max-width: 600px) {
+  .promo {
+    padding-top: 23px;
+  }
+
   .container {
     max-width: 320px;
     padding: 0 20px;
@@ -711,12 +715,12 @@
 
   .promo__grid {
     grid-template-columns: minmax(100px, 130px);
-    grid-template-rows: repeat(2, 160px) repeat(9, 130px);
+    grid-template-rows: repeat(2, 160px) repeat(1, 130px) repeat(1, 118px) repeat(2, 130px) repeat(2, 118px) repeat(3, 130px); 
     gap: 20px;
   }
 
   .promo__text-1 {
-    max-width: 222px;
+    max-width: 223px;
   }
 
   .promo__grid-img {
@@ -750,7 +754,7 @@
 .promo__item:nth-child(5) {
   grid-column: 1 / 3;
   grid-row: 7 / 8;
- 
+
 }
 
 .promo__item:nth-child(6) {
@@ -761,13 +765,12 @@
 .promo__item:nth-child(7) {
   grid-column: 1 / 3;
   grid-row: 8 / 9;
- 
 }
 
 .promo__item:nth-child(8) {
   grid-column: 1 / 3;
   grid-row: 11 / 12;
-  
+  height: 123px;
 }
 
 .promo__item:nth-child(9) {
@@ -804,7 +807,7 @@
   height: 26px;
   bottom: 8.82%;
   left: 20.357%;
-  gap: 8px;
+  gap: 5px;
 }
 
 .promo__timer-item {
@@ -822,8 +825,9 @@
 .promo__item-text-2 {
   max-width: 65px;
   font-size: 12px;
-  left: 7.69%;
+  left: 8.69%;
   bottom: 7.69%;
+  line-height: 110%;
 }
 
 .promo__item-text-2-bold {
@@ -850,8 +854,10 @@
 }
 
 .promo__item-text-4 {
+  position: absolute;
   font-size: 12px;
   white-space: normal;
+  top: 10px;
 }
 
 .promo__item-text-4-bold {
@@ -890,7 +896,7 @@
 
 .promo__item-text-8 {
   font-size: 12px;
-  padding: 7px 41px 9px 41px;
+  padding: 13px 47px 9px;
 }
 
 .promo__svg-9 {
