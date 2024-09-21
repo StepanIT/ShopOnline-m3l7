@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShopOnline</title>
   <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="src/modules/index.js"></script>
 </head>
 <body>
  <header>
@@ -61,18 +62,22 @@
             </p>
             <img class="promo__grid-img banner" src="img/promo/banner3.png" alt="banner">
             <p class="promo__timer-title">До конца акции:</p>
-            <ul class="promo__timer">
+            <ul class="promo__timer" data-timer-deadline="2024/09/22 17:00 ">
               <li class="promo__timer-item">
-                <p class="promo__timer-big-text">3</p>
+                <p class="promo__timer-big-text" id="days">00</p>
                 <p class="promo__timer-small-text">дня</p>
               </li>
               <li class="promo__timer-item">
-                <p class="promo__timer-big-text">8</p>
+                <p class="promo__timer-big-text" id="hours">00</p>
                 <p class="promo__timer-small-text">часов</p>
               </li>
               <li class="promo__timer-item">
-                <p class="promo__timer-big-text">43</p>
+                <p class="promo__timer-big-text" id="minutes" >00</p>
                 <p class="promo__timer-small-text">минуты</p>
+              </li>
+              <li class="promo__timer-item">
+                <p class="promo__timer-big-text" id="seconds" >00</p>
+                <p class="promo__timer-small-text">секунды</p>
               </li>
             </ul>
           </li>
