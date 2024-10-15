@@ -1,8 +1,12 @@
-.container {
-  padding: 0 198px;
+.container__blog {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 75px;
 }
 
 .blogs {
+  max-width: 1433px;
+  margin: 0 auto;
   padding-top: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
