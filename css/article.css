@@ -1,34 +1,34 @@
-.container__article {
+.container-article {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 75px;
 }
 
-.article__header {
+.header-article {
   padding-top: 80px;
   padding-bottom: 20px;
 }
 
-.article__header-title {
+.header-article__title {
   font-weight: 700;
   font-size: 50px;
   line-height: 130%;
   color: var(--color-black);
 }
 
-.article__main {
+.main-article {
   padding-top: 20px;
   padding-bottom: 80px;
 }
 
-.article__main-text {
+.main-article__text {
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
   color: var(--color-black);
 }
 
-.article__main-text__paragraph {
+.main-article__text-paragraph {
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;
@@ -36,31 +36,27 @@
   padding-top: 20px;
 }
 
-.article__footer {
+.footer-article {
   padding-top: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.article__footer-back {
+.footer-article__back {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.article__footer-back__symbol {
-
-}
-
-.article__footer-back__text {
+.footer-article__back-text {
   font-weight: 700;
   font-size: 16px;
   line-height: 130%;
   color: var(--color-black);
 }
 
-.article__footer-signature__text {
+.footer-article__signature-text {
   font-weight: 400;
   font-size: 22px;
   line-height: 150%;

@@ -1,4 +1,4 @@
-.container__blog {
+.container-blog {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 75px;
@@ -33,40 +33,32 @@
   padding-top: 13px;
 }
 
-.blogs__footer {
+.footer-blogs {
   padding-top: 96px;
   padding-bottom: 147px;
 }
 
-.blogs__footer__pages-list {
+.footer-blogs__pages-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.blogs__footer__pages-item {
-
-}
-
-.blogs__footer__pages-item-left {
-  
-}
-
-.blogs__footer__pages-item-numbers {
+.footer-blogs__pages-item-numbers {
   display: flex;
   gap: 6px;
 }
 
-.blogs__footer__pages-item-left:hover #blogs__footer__pages-item-left__path {
+.footer-blogs__pages-item-left:hover #footer-blogs__pages-item-left__path {
   fill: var(--color-blue);
 }
 
-.blogs__footer__pages-item-right:hover #blogs__footer__pages-item-right__path {
+.footer-blogs__pages-item-right:hover #footer-blogs__pages-item-right__path {
   fill: var(--color-blue);
 }
 
-.blogs__footer__pages-item-numbers__text {
+.footer-blogs__pages-item-numbers__text {
   width: 36px;
   height: 36px;
   border: 2px solid var(--color-black);
@@ -79,7 +71,7 @@
   text-align: center;
 }
 
-.blogs__footer__pages-item-numbers__text:hover {
+.footer-blogs__pages-item-numbers__text:hover {
   border: 2px solid var(--color-blue);
   color: var(--color-blue);
 }
