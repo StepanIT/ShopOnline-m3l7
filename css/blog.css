@@ -21,6 +21,7 @@
 }
 
 .blogs__item-image__picture {
+  border-radius: 20px;
   width: 195px;
   height: 195px;
 }
