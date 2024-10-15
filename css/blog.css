@@ -58,8 +58,12 @@
   gap: 6px;
 }
 
-.blogs__footer__pages-item-right {
+.blogs__footer__pages-item-left:hover #blogs__footer__pages-item-left__path {
+  fill: var(--color-blue);
+}
 
+.blogs__footer__pages-item-right:hover #blogs__footer__pages-item-right__path {
+  fill: var(--color-blue);
 }
 
 .blogs__footer__pages-item-numbers__text {
@@ -73,4 +77,9 @@
   color: var(--color-black);
   align-content: center;
   text-align: center;
+}
+
+.blogs__footer__pages-item-numbers__text:hover {
+  border: 2px solid var(--color-blue);
+  color: var(--color-blue);
 }
